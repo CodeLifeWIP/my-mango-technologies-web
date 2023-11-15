@@ -15,3 +15,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index']);
+Route::get('/', [HomeController::class, 'index']);
