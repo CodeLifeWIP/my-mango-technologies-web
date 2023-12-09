@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\DataDeletionInstructionController;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,5 +17,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index']);
 Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index']);
+
+Route::get('/data-deletion-instruction', [DataDeletionInstructionController::class, 'facebook']);
+Route::get('/{name}/data-deletion-instruction', [DataDeletionInstructionController::class, 'facebook']);
