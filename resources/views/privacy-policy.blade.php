@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>MangoTechnologies</title>
+    <title>{{ $name }}</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -75,7 +75,8 @@
         <div><br></div>
         <div><br></div>
         <div><br></div>
-        <div style="line-height: 1.5;"><span style="color: rgb(127, 127, 127);"><span style="color: rgb(89, 89, 89); font-size: 15px;"><span data-custom-class="body_text">This privacy notice for <bdt class="question">MangoTechnologies<bdt class="block-component"></bdt>
+        <div style="line-height: 1.5;"><span style="color: rgb(127, 127, 127);"><span style="color: rgb(89, 89, 89); font-size: 15px;"><span data-custom-class="body_text">This privacy notice for <bdt class="question">{{ $name }}
+                            <bdt class="block-component"></bdt>
                         </bdt> (<bdt class="block-component"></bdt>"<bdt class="block-component"></bdt><strong>Company</strong>
                         <bdt class="statement-end-if-in-editor"></bdt>," "<strong>we</strong>," "<strong>us</strong>," or "<strong>our</strong>"<bdt class="statement-end-if-in-editor"></bdt>
                     </span><span data-custom-class="body_text">), describes how and why we might collect, store, use, and/or share (<bdt class="block-component"></bdt>"<strong>process</strong>"<bdt class="statement-end-if-in-editor"></bdt>) your information when you use our services (<bdt class="block-component"></bdt>"<strong>Services</strong>"<bdt class="statement-end-if-in-editor"></bdt>), such as when you:</span></span></span><span style="font-size: 15px;"><span style="color: rgb(127, 127, 127);"><span data-custom-class="body_text"><span style="color: rgb(89, 89, 89);"><span data-custom-class="body_text">
@@ -104,7 +105,7 @@
                                                 <bdt class="statement-end-if-in-editor"></bdt>
                                             </span></span></span></span></span></span></span></span></li>
         </ul>
-        <div style="line-height: 1.5;"><span style="font-size: 15px;"><span style="color: rgb(127, 127, 127);"><span data-custom-class="body_text"><strong>Questions or concerns? </strong>Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <bdt class="question">my.mango.technologies@gmail.com</bdt>.</span></span></span></div>
+        <div style="line-height: 1.5;"><span style="font-size: 15px;"><span style="color: rgb(127, 127, 127);"><span data-custom-class="body_text"><strong>Questions or concerns? </strong>Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at <bdt class="question">{{ $email }}</bdt>.</span></span></span></div>
         <div style="line-height: 1.5;"><br></div>
         <div style="line-height: 1.5;"><br></div>
         <div style="line-height: 1.5;"><strong><span style="font-size: 15px;"><span data-custom-class="heading_1">SUMMARY OF KEY POINTS</span></span></strong></div>
@@ -112,7 +113,7 @@
         <div style="line-height: 1.5;"><span style="font-size: 15px;"><span data-custom-class="body_text"><strong><em>This summary provides key points from our privacy notice, but you can find out more details about any of these topics by clicking the link following each key point or by using our </em></strong></span></span><a data-custom-class="link" href="#toc"><span style="font-size: 15px;"><span data-custom-class="body_text"><strong><em>table of contents</em></strong></span></span></a><span style="font-size: 15px;"><span data-custom-class="body_text"><strong><em> below to find the section you are looking for.</em></strong></span></span></div>
         <div style="line-height: 1.5;"><br></div>
         <div style="line-height: 1.5;"><span style="font-size: 15px;"><span data-custom-class="body_text"><strong>What personal information do we process?</strong> When you visit, use, or navigate our Services, we may process personal information depending on how you interact with <bdt class="block-component"></bdt>
-                    <bdt class="question">MangoTechnologies</bdt>
+                    <bdt class="question">{{ $name }}</bdt>
                     <bdt class="statement-end-if-in-editor"></bdt> and the Services, the choices you make, and the products and features you use. Learn more about 
                 </span></span><a data-custom-class="link" href="#personalinfo"><span style="font-size: 15px;"><span data-custom-class="body_text">personal information you disclose to us</span></span></a><span data-custom-class="body_text">.</span></div>
         <div style="line-height: 1.5;"><br></div>
@@ -135,7 +136,7 @@
                 </span></span></div>
         <div style="line-height: 1.5;"><br></div>
         <div style="line-height: 1.5;"><span style="font-size: 15px;"><span data-custom-class="body_text">Want to learn more about what <bdt class="block-component"></bdt>
-                    <bdt class="question">MangoTechnologies</bdt>
+                    <bdt class="question">{{ $name }}</bdt>
                     <bdt class="statement-end-if-in-editor"></bdt> does with any information we collect? 
                 </span></span><a data-custom-class="link" href="#toc"><span style="font-size: 15px;"><span data-custom-class="body_text">Review the privacy notice in full</span></span></a><span style="font-size: 15px;"><span data-custom-class="body_text">.</span></span></div>
         <div style="line-height: 1.5;"><br></div>
@@ -543,7 +544,7 @@
                                                                                                                                         <div style="line-height: 1.5;"><br></div>
                                                                                                                                         <div style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">We do not knowingly solicit data from or market to children under 18 years of age. By using the Services, you represent that you are at least 18 or that you are the parent or guardian of such a minor and consent to such minor dependent’s use of the Services. If we learn that personal information from users less than 18 years of age has been collected, we will deactivate the account and take reasonable measures to promptly delete such data from our records. If you become aware of any data we may have collected from children under age 18, please contact us at <span style="color: rgb(89, 89, 89); font-size: 15px;"><span data-custom-class="body_text">
                                                                                                                                                                 <bdt class="block-component"></bdt>
-                                                                                                                                                                <bdt class="question">my.mango.technologies@gmail.com</bdt>
+                                                                                                                                                                <bdt class="question">{{ $email }}</bdt>
                                                                                                                                                                 <bdt class="else-block"></bdt>
                                                                                                                                                             </span></span>.</span><span data-custom-class="body_text">
                                                                                                                                                         <bdt class="else-block">
@@ -583,7 +584,7 @@
                                                                                                                                             <bdt class="block-component"><span style="font-size: 15px;"><span data-custom-class="body_text"></span></span></bdt>
                                                                                                                                         </div>
                                                                                                                                         <div style="line-height: 1.5;"><br></div>
-                                                                                                                                        <div style="line-height: 1.5;"><span data-custom-class="body_text"><span style="font-size: 15px;">If you have questions or comments about your privacy rights, you may email us at <bdt class="question">my.mango.technologies@gmail.com</bdt>.</span></span>
+                                                                                                                                        <div style="line-height: 1.5;"><span data-custom-class="body_text"><span style="font-size: 15px;">If you have questions or comments about your privacy rights, you may email us at <bdt class="question">{{ $email }}</bdt>.</span></span>
                                                                                                                                             <bdt class="statement-end-if-in-editor"><span style="font-size: 15px;"><span data-custom-class="body_text"></span></span></bdt>
                                                                                                                                         </div>
                                                                                                                                         <div style="line-height: 1.5;"><br></div>
@@ -613,12 +614,12 @@
                                                                                                                                         <div id="contact" style="line-height: 1.5;"><span style="color: rgb(127, 127, 127);"><span style="color: rgb(89, 89, 89); font-size: 15px;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span id="control" style="color: rgb(0, 0, 0);"><strong><span data-custom-class="heading_1">11. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</span></strong></span></span></span></span></span></div>
                                                                                                                                         <div style="line-height: 1.5;"><br></div>
                                                                                                                                         <div style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text">If you have questions or comments about this notice, you may <span style="color: rgb(89, 89, 89); font-size: 15px;"><span data-custom-class="body_text">
-                                                                                                                                                                <bdt class="block-component"></bdt>email us at <bdt class="question">my.mango.technologies@gmail.com</bdt>
+                                                                                                                                                                <bdt class="block-component"></bdt>email us at <bdt class="question">{{ $email }}</bdt>
                                                                                                                                                                 <bdt class="statement-end-if-in-editor"></bdt>
                                                                                                                                                             </span></span><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text"> or contact us by post at:</span></span></span></span></span></span></div>
                                                                                                                                         <div style="line-height: 1.5;"><br></div>
                                                                                                                                         <div style="line-height: 1.5;"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span style="font-size: 15px; color: rgb(89, 89, 89);"><span data-custom-class="body_text"><span style="font-size: 15px;"><span style="color: rgb(89, 89, 89);"><span style="color: rgb(89, 89, 89);"><span data-custom-class="body_text">
-                                                                                                                                                                        <bdt class="question">MangoTechnologies</bdt>
+                                                                                                                                                                        <bdt class="question">{{ $name }}</bdt>
                                                                                                                                                                     </span></span></span></span></span><span data-custom-class="body_text"><span style="color: rgb(89, 89, 89);"><span data-custom-class="body_text">
                                                                                                                                                                 <bdt class="block-component"></bdt>
                                                                                                                                                                 </bdt>
@@ -672,9 +673,7 @@
                                                                                                                                             }
                                                                                                                                         </style>
                                                                                                                                     </div>
-                                                                                                                                    <div style="color: #595959;font-size: 14px;font-family: Arial;padding-top:16px;">
-                                                                                                                                        This privacy policy was created using Termly's <a style="color: rgb(48, 48, 241) !important;" href="https://termly.io/products/privacy-policy-generator/">Privacy Policy Generator</a>.
-                                                                                                                                    </div>
+
 </body>
 
 </html>

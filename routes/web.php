@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index']);
+Route::get('/{name}/privacy-policy', [PrivacyPolicyController::class, 'index']);
 
 Route::get('/data-deletion-instruction', [DataDeletionInstructionController::class, 'facebook']);
 Route::get('/{name}/data-deletion-instruction', [DataDeletionInstructionController::class, 'facebook']);
